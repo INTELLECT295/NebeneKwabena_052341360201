@@ -1,0 +1,162 @@
+
+
+/* Global Styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(images/aasas.jpeg);
+  
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  
+  
+  display: block;
+  
+}
+
+header {
+  background: purple;
+  
+  padding: 1em;
+  text-align: center;
+  margin-top: 0px;
+  border-style: dotted;
+  border-color: red;
+  border-width: 5px;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+header nav li {
+  margin-right: 20px;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+header nav a:hover {
+  color: #ccc;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em;
+  text-align: center;
+}
+
+section {
+  
+  padding: 2em;
+  margin-bottom: 2em;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background-color: red;
+  color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: white;
+  margin-bottom: 0.5em;
+  text-align: center;
+  background-color: blue;
+  
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+/* Inventory Styles */
+
+.inventory-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.vehicle {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: calc(33.33% - 20px);
+}
+
+.vehicle img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px 5px 0 0;
+  border-style: dotted;
+  border-color: yellow;
+  border-width: thick;
+}
+
+.vehicle h2 {
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.vehicle p {
+  font-size: 0.9em;
+  color: #666;
+}
+
+/* Services Styles */
+
+.services-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.service {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: calc(33.33% - 20px);
+}
+
+.service h2 {
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.service p {
+  font-size: 0.9em;
+  color: #666;
+}
+
+/* Footer Styles */
+
+footer {
+  background: #333;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+  clear: both;
+}
+
+footer p {
+  margin-bottom: 0;
+}
+

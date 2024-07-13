@@ -1,0 +1,119 @@
+body{
+     background-color: rgb(230, 53, 230) ;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+    width: 100%;
+    margin: -2px;
+}
+.top{
+    display: block;
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    margin: 0;
+    padding: 0.5% 1%;
+    background-color: rgb(255, 0, 21);
+}
+.top ul {
+    list-style: none;
+   /* background-color: pink; */
+    width: 100% 
+   height: 5px; 
+   text-align: center;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+}
+.top ul li{
+    padding:10px 15px; 
+}
+.top ul li:not(:last-child){
+    margin-right: 80px;
+}
+.top ul li a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 1000;
+    font-size: xx-large;
+}
+.top ul li a:hover{
+    color: white;
+    opacity: 5;
+}
+.div0 {
+    display: block;
+    background-image: url(images/FB_IMG_1713370046375.jpg) ;
+    /*background-repeat: no-repeat;
+    background-size: cover;*/
+    width: 100%;
+    height: 200px;
+  
+}
+.main{
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    height:fit-content;
+    background-color: rgb(212, 125, 154); 
+    margin: 0;
+    padding: 30px 10px;
+    position: relative;
+}
+.main #home{
+    display: block;
+    width: 100%;
+    height:fit-content;
+    margin: 0;
+    padding: 0;
+
+}
+.main .div2 ul li{
+    display: block;
+    width: 100%;
+    height:fit-content;
+    display: inline-block;
+    text-align: center;
+    height: fit-content;
+    background-color: rgb(245, 169, 182);
+
+}
+.main .div3  {
+    background-color: rgb(128, 121, 121); 
+    color: white;
+    margin-bottom: -1%;
+    text-align: center;
+    display: inline-block;
+    direction: row;
+    height: fit-content;
+    width: 100%;
+
+}
+.div4{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(102, 98, 98);
+    color: white;
+    margin-left: -1.2%;
+    margin-top: -1%;
+    margin-bottom: -1%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    
+    
+}
+.d10{
+justify-content: center;
+text-align: center;
+ background-color: orchid; 
+}
+span{
+    color: red;
+}
+#services{
+    background-color:rgb(90, 86, 86);
+    color: white;
+    text-align: center;
+}
